@@ -1,0 +1,28 @@
+{
+  "name": "styledocoo_sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ryshinoz/styledocco_sample.git"
+  },
+  "author": "ryshinoz@gmail.com",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ryshinoz/styledocco_sample/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-styleguide": "~0.2.6",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-connect": "~0.3.0",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
