@@ -21,6 +21,11 @@ module.exports = (grunt) ->
         files:
           docs: ['css/*.css']
     watch:
+      readme:
+        files: ['README.md']
+        tasks: ['clean', 'styleguide']
+        options:
+          livereload: false
       css:
         files: ['css/*.css']
         tasks: ['clean', 'concat', 'cssmin', 'styleguide']
