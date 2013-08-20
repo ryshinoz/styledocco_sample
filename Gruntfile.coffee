@@ -25,6 +25,7 @@ module.exports = (grunt) ->
       server:
         options:
           port: 9000
+          base: 'docs'
 
   grunt.loadNpmTasks 'grunt-contrib-clean'
   grunt.loadNpmTasks 'grunt-contrib-watch'
