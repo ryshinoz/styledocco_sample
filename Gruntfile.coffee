@@ -9,7 +9,7 @@ module.exports = (grunt) ->
             name: 'styledocco'
           name: 'Sample'
         files:
-          docs: ['css/style.css']
+          docs: ['css/*.css']
     watch:
       css:
         files: ['css/*.css']
