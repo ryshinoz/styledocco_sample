@@ -1,6 +1,12 @@
-/* Provides extra visual weight and identifies the primary action in a set of buttons.
+/* 
+## Style
 
-    <button class="btn primary">Primary</button>
+Provides extra visual weight and identifies the primary action in a set of buttons.
+
+```
+<button class="btn primary">Primary</button>
+```
+
 */
 .btn.primary {
     background: steelblue;
